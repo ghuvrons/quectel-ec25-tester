@@ -1,0 +1,20 @@
+[submodule "Lib/buffer-c"]
+	path = Lib/buffer-c
+	url = git@github.com:ghuvrons/buffer-c.git
+	branch = main
+[submodule "Lib/smt32-dma-streamer"]
+	path = Lib/smt32-dma-streamer
+	url = git@github.com:ghuvrons/smt32-dma-streamer.git
+	branch = development
+[submodule "Lib/paho.mqtt.embedded-c"]
+	path = Lib/paho.mqtt.embedded-c
+	url = https://github.com/eclipse/paho.mqtt.embedded-c.git
+	branch = master
+[submodule "Lib/Drivers/quectel-ec25"]
+	path = Lib/Drivers/quectel-ec25
+	url = git@github.com:ghuvrons/quectel-ec25.git
+	branch = development
+[submodule "Lib/lwgps"]
+	path = Lib/lwgps
+	url = https://github.com/MaJerle/lwgps.git
+	branch = main
