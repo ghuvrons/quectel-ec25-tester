@@ -57,7 +57,7 @@
 									<listOptionValue builtIn="false" value="../Lib/Drivers/quectel-ec25/src/include"/>
 									<listOptionValue builtIn="false" value="../Lib/lwgps/lwgps/src/include"/>
 									<listOptionValue builtIn="false" value="../Lib/paho.mqtt.embedded-c/MQTTPacket/src"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/quectel-ec25-tester/Lib/Drivers/quectel-ec25/examples/simple-modem}&quot;"/>
+									<listOptionValue builtIn="false" value="../Lib/Drivers/quectel-ec25/examples"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includefiles.1773992622" name="Include files (-include)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includefiles" useByScannerDiscovery="false" valueType="includeFiles">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/App/_config/config.h}&quot;"/>
@@ -194,5 +194,12 @@
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/quectel-ec25-tester"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/quectel-ec25-tester"/>
+		</configuration>
+	</storageModule>
 </cproject>

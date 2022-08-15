@@ -9,7 +9,7 @@
 #include "mqtt.h"
 #include "commands.h"
 #include "thread_flags.h"
-#include <modem.h>
+#include <simple-modem/modem.h>
 #include <dma_streamer.h>
 #include <os.h>
 #include <utils/random/random_int.h>

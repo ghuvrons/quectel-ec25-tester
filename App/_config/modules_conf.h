@@ -58,24 +58,8 @@
  */
 // MODULE
 // DRIVER
-#define SIM_EN_FEATURE_SOCKET 1
 
-#ifdef APP
-#define QTEL_EN_FEATURE_MQTT   1
-#define QTEL_EN_FEATURE_FOTA   0
-#define QTEL_EN_FEATURE_GPS    1
-#else
-#define QTEL_EN_FEATURE_MQTT   0
-#define QTEL_EN_FEATURE_FOTA   1
-#define QTEL_EN_FEATURE_GPS    0
-#endif
-
-#if USE_FREERTOS
-#define QTEL_GetTick() osKernelGetTickCount()
-#define QTEL_Delay(ms) osDelay(ms)
-#endif
-
-#include <quectel/conf.h>
+#include <simple-modem/config.h>
 /* SIMCOM CONFIG */
 
 
